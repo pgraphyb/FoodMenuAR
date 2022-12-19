@@ -1,256 +1,70 @@
-<!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
-
-- [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
-  * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
-- [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
-
-  
-
-<!-- About the Project -->
-## :star2: About the Project
-
-
-<!-- Screenshots -->
-### :camera: Screenshots
-
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div>
-
-
-<!-- TechStack -->
-### :space_invader: Tech Stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
-  </ul>
-</details>
+# FoodMenuAr
 
-<!-- Features -->
-### :dart: Features
+This is a class project. Creation of a AR app prototype. In this specific case, I have create a AR app
+that shows food menu in augmented reality using Lens Studio (Snapchat)
 
-- Feature 1
-- Feature 2
-- Feature 3
+## Getting Started
 
-<!-- Color Reference -->
-### :art: Color Reference
+This application can be run in the Snapchat app since I has been developed in Lens Studio (Snapchat application for AR experiences)
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+You will ned to download the last version of the APP in this link: https://ar.snap.com/download
 
+Open the project and click "Send to Snapchat"
 
-<!-- Env Variables -->
-### :key: Environment Variables
+### System Requirements
 
-To run this project, you will need to add the following environment variables to your .env file
+OPERATING SYSTEM
+- Windows 10 (64 bit)
+- MacOS 10.13+
 
-`API_KEY`
+HARDWARE
+- Minimum of Intel Core i3 2.5Ghz or AMD FX 4300 2.6Ghz or Apple M1 with 4 GB RAM
+- Intel HD Graphics 4000 / Nvidia GeForce 710 / AMD Radeon HD 6450 or better
+- Screen resolution of 1280x768 or higher
 
-`ANOTHER_API_KEY`
+### Installing
 
-<!-- Getting Started -->
-## 	:toolbox: Getting Started
+A step by step series of examples that tell you how to get a development
+environment running
 
-<!-- Prerequisites -->
-### :bangbang: Prerequisites
+1. Click the download Button
 
-This project uses Yarn as package manager
+2. Doble Click the .dmg file
+    
+3. Move the APP to the applications folder
 
-```bash
- npm install --global yarn
-```
+The application is already installed
 
-<!-- Installation -->
-### :gear: Installation
+## Running the tests
 
-Install my-project with npm
+To run the application you will need the Snapchat APP in your phone
 
-```bash
-  yarn install my-project
-  cd my-project
-```
-   
-<!-- Running Tests -->
-### :test_tube: Running Tests
+### Sync you Snapchat account
 
-To run tests, run the following command
+On th top right corner log in with your Snapchat account
 
-```bash
-  yarn test test
-```
+With this, you will be able to send all your project directly to your phone!
 
-<!-- Run Locally -->
-### :running: Run Locally
+### Run the APP
 
-Clone the project
+When you succesfully connect your Snapchat account you will be able to send the project to your phone:
 
-```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
+1. Open the Snapchat APP in your phone
+2. Search for the first filter withing the camera tab
+3. Enjoy your project in the phone
 
-Go to the project directory
+## Built With
 
-```bash
-  cd my-project
-```
+  - [Lens Studio](https://ar.snap.com/) - Version 4.34
+  - [SnapChat](https://www.snapchat.com/en-GB) - Version 12.12.0
+  - [MacOS](https://www.apple.com/) - Version 12.5
 
-Install dependencies
+## Author
 
-```bash
-  yarn install
-```
+  - **Pablo Planas Boquer**
+  - [LikedIn](https://www.linkedin.com/in/pablo-planas/)
 
-Start the server
+## Acknowledgments
 
-```bash
-  yarn start
-```
-
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-```bash
-  yarn deploy
-```
-
-
-<!-- Usage -->
-## :eyes: Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-<!-- Roadmap -->
-## :compass: Roadmap
-
-* [x] Todo 1
-* [ ] Todo 2
-
-
-<!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-
-<!-- Code of Conduct -->
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
-
-<!-- Contact -->
-## :handshake: Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
-
+  - Thank you to my professor Peter Locharernkul
+  - And to all my college colleagues
